@@ -286,9 +286,10 @@ html {
 }
 
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
     color: #333;
     background-color: #fff
 }
@@ -2179,6 +2180,7 @@ textarea.input-lg, select[multiple].input-lg {
 }
 
 .btn-default {
+    text-transform: uppercase;
     color: #333;
     background-color: #fff;
     border-color: #ccc
@@ -3709,6 +3711,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 }
 
 .nav {
+    text-transform: uppercase;
     margin-bottom: 0;
     padding-left: 0;
     list-style: none
