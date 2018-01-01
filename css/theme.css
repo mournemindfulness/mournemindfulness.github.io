@@ -21,6 +21,11 @@ p {
     text-align: left;
 }
 
+.written {
+    font-size: 1.35em;
+    font-family: 'Loved by the King', cursive;
+}
+
 .home-features .fa {
     color: #e88100;
 }
