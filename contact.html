@@ -74,7 +74,7 @@
         <div class="col-sm-6 main-content">
             <h1>Location</h1>
 
-            <div id="map" class="map"></div>
+            <div id="map-canvas" class="map-canvas"></div>
         </div>
     </div>
 
@@ -112,7 +112,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script> -->
 
 <script>
 var myCenter = new google.maps.LatLng(54.218494, -6.000656);
@@ -123,7 +123,7 @@ function initialize(){
         mapTypeId:google.maps.MapTypeId.ROADMAP
     };
 
-    var map = new google.maps.Map(document.getElementById("map"),mapProp);
+    var map = new google.maps.Map(document.getElementById("map-canvas"),mapProp);
 
     var marker = new google.maps.Marker({
         position:myCenter,
